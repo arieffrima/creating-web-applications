@@ -1,9 +1,9 @@
 <?php
 
-$host = "feenix-mariadb.swin.edu.au";
-$user = "s104196233";
-$pwd  = "170294";
-$sql_db  = "s104196233_db";
+$host = "localhost";
+$user = "root";
+$pwd  = "";
+$sql_db  = "eoi";
 
 $conn = @mysqli_connect($host, $user, $pwd);
 
